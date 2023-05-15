@@ -14,7 +14,7 @@ definePageMeta({
             </h1>
         </NuxtLink>
 
-        <div class="py-32 w-180 mxa">
+        <div class="py-24 max-w-xl mxa">
             <p class="text-2xl text-center font-semibold">鹤鸣</p>
 
             <p class="text-left mx-2 mt-4">
