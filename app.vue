@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { appName } from '~/constants'
 
+const { isMobile } = useDevice()
+
 useHead({
   title: appName,
 })
@@ -8,7 +10,7 @@ useHead({
 
 <template>
   <VitePwaManifest />
-  <NuxtLayout>
+  <NuxtLayout :name="isMobile ? 'mobile' : 'default'">
     <NuxtPage />
   </NuxtLayout>
 </template>
