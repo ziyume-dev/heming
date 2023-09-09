@@ -6,11 +6,11 @@ definePageMeta({
 
 <template>
   <div pt-4 py-16>
-    <div flex font-serif text-3xl justify-center items-center border-4 light:border-pink-100 w-24 mxa>
-      关于
-    </div>
+    <h3 flex font-serif justify-center items-center text-3xl border-4 light:border-pink-100 w-36 mxa>
+      商务合作
+    </h3>
     <div max-w-xl mxa mt-4>
-      QQ 群：863097277
+      联系邮箱（其他）：besscroft@foxmail.com
     </div>
   </div>
 </template>
