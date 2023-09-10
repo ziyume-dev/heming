@@ -26,7 +26,7 @@ function mobileMenuToggle() {
         <h1 class="font-serif text-2xl">
           <ruby>鹤<rp>(</rp><rt>He</rt><rp>)</rp></ruby>
           <ruby>鸣<rp>(</rp><rt>Ming</rt><rp>)</rp></ruby>
-          <span class="justify-center items-center inline px-2 text-3xl border-4 light:border-pink-100" data-text="工作室">工作室</span>
+          <span class="justify-center items-center inline px-2 text-3xl border-4 border-green-400" data-text="工作室">工作室</span>
         </h1>
       </NuxtLink>
       <div class="flex items-center md:order-2">
@@ -44,17 +44,17 @@ function mobileMenuToggle() {
       <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="mobile-menu">
         <ul flex flex-col mt-4 font-medium md:flex-row md:space-x-8 md:mt-0 space-y-2 sm:space-y-0>
           <li>
-            <NuxtLink border-l-4 light:border-pink-100 icon-btn px-2 font-serif to="/gallery" title="gallery">
+            <NuxtLink border-l-4 border-green-400 icon-btn px-2 font-serif to="/gallery" title="gallery">
               作品
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink border-l-4 light:border-pink-100 icon-btn px-2 font-serif to="/business" title="business">
+            <NuxtLink border-l-4 border-green-400 icon-btn px-2 font-serif to="/business" title="business">
               商务合作
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink border-l-4 light:border-pink-100 icon-btn px-2 font-serif to="/about" title="about">
+            <NuxtLink border-l-4 border-green-400 icon-btn px-2 font-serif to="/about" title="about">
               关于
             </NuxtLink>
           </li>
