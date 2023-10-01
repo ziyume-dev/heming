@@ -14,9 +14,21 @@ const info = ref([
   },
   {
     title: '嗯学英语',
-    desc: '嗯学英语，学英语，就嗯学！（开发中）',
+    desc: '嗯学英语，学英语，就嗯学！',
     href: 'https://github.com/besscroft/enstudy',
     target_title: 'GitHub',
+  },
+  {
+    title: 'duduke',
+    desc: '蹦蹦火花，是可莉的核武器啦！',
+    href: '#',
+    target_title: 'N/A',
+  },
+  {
+    title: 'duduke-clip',
+    desc: '嘟嘟可 CLIP 模型炼丹系统！',
+    href: '#',
+    target_title: 'N/A',
   },
 ])
 
