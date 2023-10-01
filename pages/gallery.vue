@@ -28,9 +28,9 @@ definePageMeta({
 <template>
   <div grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-8 mxa md:mt-8 md:px-20>
     <div :key="item" v-for="item in info" flex flex-col items-center h-48 rounded-md border-green-400 border-4 px-4>
-      <p mt8 text-xl>{{ item.title }}</p>
-      <p mt4>{{ item.desc }}</p>
-      <a mt4 icon-btn rel="noreferrer" :href="item.href" target="_blank" :title="item.target_title">
+      <div h-12 flex items-center><p text-xl>{{ item.title }}</p></div>
+      <div h-24 p-2><p>{{ item.desc }}</p></div>
+      <a h-12 p-2 icon-btn rel="noreferrer" :href="item.href" target="_blank" :title="item.target_title">
         <div animate-bounce scale-150 i-carbon-send-alt />
       </a>
     </div>
