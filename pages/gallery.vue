@@ -46,10 +46,10 @@ const noOpenInfo = ref([
     github: 'N/A',
   },
   {
-    title: '云淑故事集',
-    desc: '收录我拍的各种照片...',
+    title: '旅行足迹',
+    desc: 'We Will Be Reunited',
     href: 'https://kamera.heming.dev/',
-    github: 'N/A',
+    github: 'https://github.com/besscroft/kamera',
   },
 ])
 
