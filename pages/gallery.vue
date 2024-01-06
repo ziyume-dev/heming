@@ -30,26 +30,20 @@ const openInfo = ref([
     href: 'https://nuxt-h5.vercel.app/',
     github: 'https://github.com/besscroft/nuxt-h5',
   },
+  {
+    title: 'kamera',
+    desc: '一款专供摄影佬使用的记录网站，基于 Nuxt 3 开发。可读取 EXIF 信息并上传、管理维护图片数据，首页精品照片展示，子页分类展示等功能。',
+    href: 'https://kamera.heming.dev/',
+    github: 'https://github.com/besscroft/kamera',
+  },
 ])
 
 const noOpenInfo = ref([
   {
-    title: 'duduke',
-    desc: '蹦蹦火花，是可莉的核武器啦！',
+    title: 'GAI4J',
+    desc: '生成式创作管理平台，AI 模型接入、Prompt、创作管理、热点指数、爆文分析、爆文重写、运营、数据分析等。',
     href: '#',
     github: 'N/A',
-  },
-  {
-    title: 'duduke-clip',
-    desc: '嘟嘟可 CLIP 模型炼丹系统！',
-    href: '#',
-    github: 'N/A',
-  },
-  {
-    title: '旅行足迹',
-    desc: 'We Will Be Reunited',
-    href: 'https://kamera.heming.dev/',
-    github: 'https://github.com/besscroft/kamera',
   },
 ])
 
@@ -59,18 +53,6 @@ const openArchiveInfo = ref([
     desc: '一款 Material Design 风格的 RSS 阅读器，支持 ChatGPT 和自定义订阅。',
     href: 'https://heming-rss.vercel.app/',
     github: 'https://github.com/besscroft/heming-rss',
-  },
-  {
-    title: 'duduke-clip',
-    desc: '嘟嘟可 CLIP 模型炼丹系统！',
-    href: '#',
-    github: 'N/A',
-  },
-  {
-    title: '云淑故事集',
-    desc: '收录我拍的各种照片...',
-    href: 'https://kamera.heming.dev/',
-    github: 'N/A',
   },
 ])
 
