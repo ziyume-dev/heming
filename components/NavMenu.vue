@@ -1,18 +1,4 @@
 <script setup lang="ts">
-const color = useColorMode()
-
-useHead({
-  meta: [{
-    id: 'theme-color',
-    name: 'theme-color',
-    content: () => color.value === 'dark' ? '#222222' : '#ffffff',
-  }],
-})
-
-function toggleDark() {
-  color.preference = color.value === 'dark' ? 'light' : 'dark'
-}
-
 function mobileMenuToggle() {
   const mobileMenu = document.getElementById('mobile-menu')
   mobileMenu.classList.toggle('hidden')
@@ -30,9 +16,9 @@ function mobileMenuToggle() {
         </h1>
       </NuxtLink>
       <div class="flex items-center md:order-2">
-        <button class="icon-btn mx-2 !outline-none" @click="toggleDark()" title="toggleDark">
-          <div class="i-carbon-sun dark:i-carbon-moon" />
-        </button>
+        <ClientOnly>
+          <DarkToggle />
+        </ClientOnly>
         <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/besscroft" target="_blank" title="GitHub">
           <div i-carbon-logo-github />
         </a>
