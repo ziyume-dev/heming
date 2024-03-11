@@ -1,7 +1,5 @@
 <script setup lang="ts">
-definePageMeta({
-  layout: 'default',
-})
+
 </script>
 
 <template>
@@ -18,3 +16,8 @@ definePageMeta({
 <style scoped>
 
 </style>
+
+<route lang="yaml">
+meta:
+  layout: default
+</route>

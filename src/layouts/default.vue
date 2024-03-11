@@ -1,11 +1,12 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
-  <div>
-    <NavMenu />
+  <main>
+    <Header />
     <div p-2>
-      <slot />
+      <RouterView />
     </div>
-  </div>
+  </main>
 </template>

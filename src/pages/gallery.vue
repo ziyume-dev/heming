@@ -45,6 +45,12 @@ const noOpenInfo = ref([
     href: '#',
     github: 'N/A',
   },
+  {
+    title: '如意面板',
+    desc: '现代、简约、节约内存的 Linux 管理面板，抽空开发中...',
+    href: '#',
+    github: 'N/A',
+  },
 ])
 
 const openArchiveInfo = ref([
@@ -55,10 +61,6 @@ const openArchiveInfo = ref([
     github: 'https://github.com/besscroft/heming-rss',
   },
 ])
-
-definePageMeta({
-  layout: 'default',
-})
 </script>
 
 <template>
@@ -109,3 +111,8 @@ definePageMeta({
 <style scoped>
 
 </style>
+
+<route lang="yaml">
+meta:
+  layout: default
+</route>
